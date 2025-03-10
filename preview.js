@@ -7,8 +7,8 @@
     let isAutoPositioned = true; // 사용자가 드래그하기 전엔 자동 우측 정렬 상태
     let startX, startY, startWidth, startHeight, startLeft, startTop;
     let isMinimized = false;
-    let lastWidth = "500px";  // 초기 width 400px
-    let lastHeight = "900px"; // 초기 height 700px
+    let lastWidth = "360px";  // 초기 width 360px
+    let lastHeight = "640px"; // 초기 height 640px
     let history = [];
     let historyIndex = -1;
 
@@ -20,7 +20,7 @@
     deviceFrame.style.left = (window.innerWidth - parseInt(lastWidth) - 50) + "px";
     deviceFrame.style.width = lastWidth;
     deviceFrame.style.minWidth = "350px";  // 최소 width 350px로 제한
-    deviceFrame.style.maxWidth = "510px";  // 최대 width 510px로 제한
+    deviceFrame.style.maxWidth = "500px";  // 최대 width 500px로 제한
     deviceFrame.style.height = lastHeight;
     deviceFrame.style.border = "5px solid black";
     deviceFrame.style.background = "white";
