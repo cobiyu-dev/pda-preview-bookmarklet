@@ -7,8 +7,8 @@
     let isAutoPositioned = true; // 사용자가 드래그하기 전엔 자동 우측 정렬 상태
     let startX, startY, startWidth, startHeight, startLeft, startTop;
     let isMinimized = false;
-    let lastWidth = "360px";  // 초기 width 360px
-    let lastHeight = "640px"; // 초기 height 640px
+    let lastWidth = "500px";  // 초기 width 500px
+    let lastHeight = "900px"; // 초기 height 900px
     let history = [];
     let historyIndex = -1;
 
